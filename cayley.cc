@@ -1,4 +1,5 @@
 #include <iostream>
+#include "cayley.h"
 using namespace std;
 
 const int MAX = 36;

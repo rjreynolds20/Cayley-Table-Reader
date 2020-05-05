@@ -16,6 +16,7 @@ int main(){
   char out;
   char identity;
   cin >> table_size;
+  print_table(table, table_size);
   read_table(table, table_size);
   if(is_closed(table,table_size,outlier)){
     is_associative(table, table_size, x, y, z, ans);
